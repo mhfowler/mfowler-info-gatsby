@@ -39,8 +39,7 @@ const TwoPots = () => (
     <img className="doc-image" src="/mfowler/img/2pots/screenshots/glitch.png"/>
     <img className="doc-image" src="/mfowler/img/2pots/screenshots/object.png"/>
     <p>
-        You can also see one sketch which was ported over to the browser using p5.js
-        <a href="http://mhfowler.github.io/westbeth-processing/sketches/veragrowth/vera.html">here</a>.
+        You can also see one sketch which was ported over to the browser using p5.js <a href="http://mhfowler.github.io/westbeth-processing/sketches/veragrowth/vera.html">here</a>.
     </p>
 
   </div>
