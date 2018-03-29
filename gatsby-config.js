@@ -3,5 +3,5 @@ module.exports = {
     title: 'Gatsby Default Starter',
   },
   plugins: ['gatsby-plugin-react-helmet', `gatsby-plugin-sass`],
-  pathPrefix: "/mfowler-info-gatsby"
+  pathPrefix: ""
 };
