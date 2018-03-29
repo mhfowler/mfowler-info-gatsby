@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-gatsby build
+npm run deploy

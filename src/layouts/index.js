@@ -37,10 +37,10 @@ class TemplateWrapper extends React.Component {
     return (
       <div className={wrapperClasses}>
         <Helmet
-          title="Gatsby Default Starter"
+          title="mfowler.info"
           meta={[
-            {name: 'description', content: 'Sample'},
-            {name: 'keywords', content: 'sample, something'},
+            {name: 'description', content: 'Max Fowler | Freelancer'},
+            {name: 'keywords', content: 'freelance, art'},
           ]}
         />
         <link rel="stylesheet" type="text/css" charset="UTF-8"
@@ -48,6 +48,7 @@ class TemplateWrapper extends React.Component {
         <link rel="stylesheet" type="text/css"
               href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"/>
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"/>
+        <link rel="icon" href="/mfowler/img/favico.ico" type="image/x-icon"/>
         <div className="page-wrapper">
           <Header/>
           <div className="main-wrapper">
