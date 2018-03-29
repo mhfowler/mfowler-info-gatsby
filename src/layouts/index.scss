@@ -64,9 +64,9 @@ body {
     float: right;
     padding-right: 5px;
     position: absolute;
-    right: 0%;
+    right: 20px;
     top: 2%;
-    width: 200px;
+    width: 163px;
     @media screen and (max-width: 850px) {
         display:none;
     }
@@ -74,9 +74,9 @@ body {
         right: 2%;
     }
     &.top-left {
-        left: 2%;
+        left: 20px;
         top: 2%;
-        display: none;
+        width: 100%;
     }
     &.bottom-left {
         left: 2%;
@@ -88,10 +88,25 @@ body {
         bottom: 2%;
         display: none;
     }
+    .mood-button {
+        float: left;
+        margin-right: 15px;
+        &:hover {
+            cursor: pointer;
+        }
+         &.clicked {
+                text-decoration: underline;
+        }
+    }
+    .click-your-mood {
+        float: left;
+        margin-right: 15px;
+    }
 }
 
 .base-body {
     padding-bottom: 30px;
+    @include clearfix();
 }
 
 .base-body.asmr {
@@ -102,7 +117,7 @@ body {
         display:none;
     }
 }
-.base-body.standard {
+.base-body.times-new-roman {
     background-color: white;
     .simple-site {
         display:none;
@@ -111,7 +126,7 @@ body {
         color: rgb(255, 0, 174);
     }
 }
-.base-body.professional {
+.base-body.standard {
     font-family: 'Roboto Mono', monospace;
     font-size: 12px;
     .simple-site {
@@ -159,6 +174,9 @@ body {
     }
     .projects-wrapper {
         display:none;
+    }
+    .page-wrapper {
+        padding-top: 100px;
     }
 }
 .p5-sketch {
@@ -243,7 +261,7 @@ body {
                 cursor: pointer;
             }
             &.clicked {
-                font-size: 16px;
+                text-decoration: underline;
             }
             @media screen and (max-width: 600px) {
                 margin-right: 23px;
@@ -369,7 +387,7 @@ body {
             width: 100%;
         }
 
-        max-width: 400px;
+        max-width: 100%;
       width: 100%;
 
     }
@@ -417,11 +435,11 @@ body {
             margin: auto;
             //max-width: 1000px;
             max-width: 750px;
-            margin-top: 50px;
+            padding-top: 75px;
             //max-width: 100%;
             width: 90%;
             padding-bottom: 70px;
-            min-height: 100%;
+            min-height: 100vh;
             @include clearfix();
             @media screen and (max-width: 575px) {
                 //margin-left: 10px;
@@ -457,9 +475,15 @@ body {
 
         .navlink a {
             color: black;
+            &:hover {
+                color: pink;
+            }
         }
         .myname a {
             color: black;
+            &:hover {
+                color: pink;
+            }
             //float: left;
             //font-size: 28px;
             //font-size: 16px;

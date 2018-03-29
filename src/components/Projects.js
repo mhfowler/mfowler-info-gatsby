@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Project from './Project'
+import SimpleSite from './SimpleSite.js'
 
 var classNames = require('classnames')
 
@@ -8,6 +9,7 @@ var classNames = require('classnames')
 const Projects = () => {
   return (
     <div>
+      <SimpleSite/>
       <div className="projects-wrapper">
           <Project
             project_title="What's On Your Mind?"
