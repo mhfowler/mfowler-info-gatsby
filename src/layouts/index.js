@@ -42,6 +42,9 @@ class TemplateWrapper extends React.Component {
             {name: 'description', content: 'Max Fowler | Freelancer'},
             {name: 'keywords', content: 'freelance, art'},
           ]}
+          bodyAttributes={{
+            class: this.state.mood
+          }}
         />
         <link rel="stylesheet" type="text/css" charset="UTF-8"
               href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"/>

@@ -104,12 +104,12 @@ body {
     }
 }
 
-.base-body {
+body {
     padding-bottom: 30px;
     @include clearfix();
 }
 
-.base-body.asmr {
+body.asmr {
     font-family: 'Roboto Mono', monospace;
     font-size: 12px;
     background-color: #c2c2de;
@@ -117,7 +117,7 @@ body {
         display:none;
     }
 }
-.base-body.times-new-roman {
+body.times-new-roman {
     background-color: white;
     .simple-site {
         display:none;
@@ -126,7 +126,7 @@ body {
         color: rgb(255, 0, 174);
     }
 }
-.base-body.standard {
+body.standard {
     font-family: 'Roboto Mono', monospace;
     font-size: 12px;
     .simple-site {
@@ -137,8 +137,10 @@ body {
         color: #8900ff;
     }
 }
-.base-body.sponsored {
+body.sponsored {
     background-image: url('/mfowler/img/inverted-bp.png');
+    background-repeat: repeat;
+    background-size: cover;
     font-family: 'Roboto Mono', monospace;
     font-size: 12px;
     color:white;
@@ -155,8 +157,10 @@ body {
         display:none;
     }
 }
-.base-body.test {
+body.test {
     background-image: url('/mfowler/img/triangles.png');
+        background-repeat: repeat;
+    background-size: cover;
     font-family: 'Roboto Mono', monospace;
     color: red;
     font-size: 28px;
@@ -401,7 +405,7 @@ body {
         }
     }
 
-    .base-body {
+    body {
         transition: background 0.4s;
         padding-bottom: 0px;
         height: 100%;
