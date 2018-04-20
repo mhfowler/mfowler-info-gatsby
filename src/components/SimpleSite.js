@@ -8,7 +8,7 @@ const SimpleSite = () => {
     <div className="about-line" style={{"margin-top": "20px"}}>
         Max Fowler is an artist and programmer living in New York
         who makes websites, interactive installations and open source software.
-        View his <SLink to="/about">cv</SLink>, sign up for his <SLink to="/mfowler/html/mail.html">newsletter</SLink>, or <a href="mailto:maxhfowler@gmail.com">send him an email</a>.
+        View his <SLink to="/about">cv</SLink>, sign up for his <SLink to="/mail">newsletter</SLink>, or <a href="mailto:maxhfowler@gmail.com">send him an email</a>.
     </div>
 
     <div className="simple-list">
