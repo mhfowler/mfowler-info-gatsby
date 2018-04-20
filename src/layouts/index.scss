@@ -877,3 +877,75 @@ body {
 .italic {
     font-style: italic;
 }
+
+.newsletter {
+    		 .button {
+			margin-top: 15px;
+			border-radius: 0px;
+			font-family: "Helvetica";
+			color: black;
+		border-color: black;
+                 display: block;
+                 width: 100%;
+		border: 1px solid black;
+			background-color: white;
+			  -webkit-appearance: none;
+                 &:hover {
+                     cursor: pointer;
+                 }
+		}
+    .email-input {
+        width: 97%;
+        display: block;
+        margin-top: 10px;
+    }
+		#mc_embed_signup .button:hover {
+			border-radius: 0px;
+			font-family: "Helvetica";
+			color: black;
+		border-color: black;
+		border: 1px solid black;
+			background-color: white;
+		}
+		canvas {
+			    width: 100%;
+    height: 100%;
+    /*opacity: 0.5;*/
+    left: 0;
+    right: 0;
+    position: absolute;
+		}
+
+		.form-holder {
+			//width: 400px;
+            margin:auto; margin-top: 0px; float:left;
+		}
+
+		body {
+			padding: 0px;
+			margin: 0px;
+		}
+		.only-mobile {
+			display: none;
+		}
+		@media screen and (max-width: 700px) {
+			.no-mobile {
+				display: none;
+			}
+			.only-mobile {
+				display: block;
+			}
+			.form-holder {
+				margin-top: 30px;
+				margin-left: 20px;
+			}
+			.page-wrapper {
+				margin-top: 0px;
+				width: 100%;
+				text-align: center;
+				/*height: 0px;*/
+				/*float: left;*/
+			}
+
+		}
+}

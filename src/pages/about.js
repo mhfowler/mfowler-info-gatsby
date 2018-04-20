@@ -16,7 +16,7 @@ const AboutPage = () => {
         </div>
 
         <p >
-          <a href="/mail.html">newsletter</a> // <a href="http://twitter.com/notplants">twitter</a> // <a href="http://instagram.com/maxpicks">instagram</a> // <a href="http://github.com/mhfowler">github</a> // <a href="https://www.are.na/max-fowler">are.na</a> // <a href="mailto:maxhfowler@gmail.com">maxhfowler@gmail.com</a>
+          <Link to="/mail">newsletter</Link> // <a href="http://twitter.com/notplants">twitter</a> // <a href="http://instagram.com/maxpicks">instagram</a> // <a href="http://github.com/mhfowler">github</a> // <a href="https://www.are.na/max-fowler">are.na</a> // <a href="mailto:maxhfowler@gmail.com">maxhfowler@gmail.com</a>
         </p>
 
         <br/>
