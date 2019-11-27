@@ -33,7 +33,7 @@ class Layout extends React.Component {
   }
 
   render() {
-    var wrapperClasses = `base-body ${this.state.mood}`
+    var wrapperClasses = `base-body ${this.state.mood} ${this.props.pageType}`
     return (
       <div className={wrapperClasses}>
         <Helmet
@@ -53,26 +53,30 @@ class Layout extends React.Component {
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"/>
         <link rel="icon" href="/mfowler/img/favico.ico" type="image/x-icon"/>
         <div className="page-wrapper">
-          <Header/>
+          { !this.props.noHeader ? <Header/> : null }
           <div className="main-wrapper">
             {this.props.children}
           </div>
-        </div>
-        <div className="right-filler">
-          welcome to the website
-        </div>
-        <div className="right-filler top-left">
-          <div className="click-your-mood"> click your mood:</div>
-          <MoodButton mood="standard" currentMood={this.state.mood} handleMoodClick={this.handleMoodClick} />
-          <MoodButton mood="asmr" currentMood={this.state.mood} handleMoodClick={this.handleMoodClick} />
-          <MoodButton mood="sponsored" currentMood={this.state.mood} handleMoodClick={this.handleMoodClick} />
-          <MoodButton mood="test" currentMood={this.state.mood} handleMoodClick={this.handleMoodClick} />
-        </div>
-        <div className="right-filler bottom-left">
-          welcome to the website
-        </div>
-        <div className="right-filler bottom-right">
-          welcome to the website
+        { !this.props.noMoodSelector &&
+            <div>
+              <div className="right-filler">
+                welcome to the website
+              </div>
+              <div className="right-filler top-left">
+                <div className="click-your-mood"> click your mood:</div>
+                <MoodButton mood="standard" currentMood={this.state.mood} handleMoodClick={this.handleMoodClick} />
+                <MoodButton mood="asmr" currentMood={this.state.mood} handleMoodClick={this.handleMoodClick} />
+                <MoodButton mood="sponsored" currentMood={this.state.mood} handleMoodClick={this.handleMoodClick} />
+                <MoodButton mood="test" currentMood={this.state.mood} handleMoodClick={this.handleMoodClick} />
+              </div>
+              <div className="right-filler bottom-left">
+                welcome to the website
+              </div>
+              <div className="right-filler bottom-right">
+                welcome to the website
+              </div>
+            </div>
+        }
         </div>
       </div>
     )
