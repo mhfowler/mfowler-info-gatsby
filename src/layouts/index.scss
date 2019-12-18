@@ -2,8 +2,6 @@ body {
     margin: 0px;
 }
 
-
-
 @mixin clearfix {
     &:after {
         content: "";
@@ -109,10 +107,6 @@ body {
 body {
     padding-bottom: 30px;
     @include clearfix();
-}
-
-body.blog {
-    background-color: blue;
 }
 
 body.asmr {
@@ -882,16 +876,6 @@ body {
     .year-wrapper {
         @include clearfix();
         width: 100%;
-    }
-
-    .blog-wrapper {
-        .blog-post-title {
-            text-align:center;
-        }
-        .blog-post-meta {
-            text-align:center;
-            margin-bottom: 45px;
-        }
     }
 
 .italic {
