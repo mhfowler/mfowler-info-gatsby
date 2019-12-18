@@ -1,5 +1,6 @@
 import React from 'react'
 import SLink from './SLink.js'
+import Img from "gatsby-image"
 var classNames = require('classnames')
 
 

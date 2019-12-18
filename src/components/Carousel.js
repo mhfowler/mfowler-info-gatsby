@@ -18,6 +18,14 @@ class Carousel extends React.Component {
   }
 
   render = () => {
+    var imagesString = this.props.imagesString;
+    var images = [];
+    if (imagesString) {
+        images = imagesString.split(',')
+    }
+    else {
+      images = this.props.images;
+    }
     var focusSettings = {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -26,7 +34,7 @@ class Carousel extends React.Component {
         className: `carousel-focus ${this.props.carouselName}-focus`,
       }
       var thumbnailSettings = {
-        slidesToShow: this.props.images.length,
+        slidesToShow: images.length,
         slidesToScroll: 1,
         dots: false,
         focusOnSelect: true,
@@ -40,7 +48,7 @@ class Carousel extends React.Component {
     return (
       <div className="carousel-inner-wrapper">
         <Slider {...focusSettings} ref="carouselFocus">
-          {this.props.images.map(function (imgLink, i) {
+          {images.map(function (imgLink, i) {
             return (
               <div className="img-container">
                 <img className="carousel-thumbnail" src={imgLink}/>
@@ -49,7 +57,7 @@ class Carousel extends React.Component {
           })}
         </Slider>
         <Slider {...thumbnailSettings} ref="carouselThumbnails">
-          {this.props.images.map(function (imgLink, i) {
+          {images.map(function (imgLink, i) {
             return (
               <div className="img-container">
                 <img className="carousel-thumbnail" src={imgLink}/>

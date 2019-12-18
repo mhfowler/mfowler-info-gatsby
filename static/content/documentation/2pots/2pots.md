@@ -10,9 +10,9 @@ Using a handmade cardboard interface housing an arduino and 2 potentiometers (2 
 of a series of generative line drawings made using open frameworks.
           
 _2 pots_ was an installation created for the <a href="http://sfpc.io">SFPC</a> final show at the end of
-a 10 week session studying code, design, hardware and theory.
+a 10 week session in 2016.
 
-&nbsp;
+<br/>  
 
 ![2pots](img/2pots-cover.jpg)
 ![hands](img/hands.jpg)
