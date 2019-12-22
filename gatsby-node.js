@@ -3,28 +3,28 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
 
   // all markdown remark
-  const blogPostTemplate = path.resolve(`src/templates/blog-post.js`)
-  const result = await graphql(`
-    {
-      allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] }
-        limit: 1000
-      ) {
-        edges {
-          node {
-            frontmatter {
-              path
-            }
-          }
-        }
-      }
-    }
-  `)
-  // Handle errors
-  if (result.errors) {
-    reporter.panicOnBuild(`Error while running GraphQL query.`)
-    return
-  }
+  // const blogPostTemplate = path.resolve(`src/templates/blog-post.js`)
+  // const result = await graphql(`
+  //   {
+  //     allMarkdownRemark(
+  //       sort: { order: DESC, fields: [frontmatter___date] }
+  //       limit: 1000
+  //     ) {
+  //       edges {
+  //         node {
+  //           frontmatter {
+  //             path
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // `)
+  // // Handle errors
+  // if (result.errors) {
+  //   reporter.panicOnBuild(`Error while running GraphQL query.`)
+  //   return
+  // }
   // result.data.allMarkdownRemark.edges.forEach(({ node }) => {
   //   if (node.frontmatter.path) {
   //     console.log(`++ creating md page ${node.frontmatter.path}`)
