@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{225:function(e,a,t){"use strict";t.r(a);var n=t(0),l=t.n(n),r=(t(3),t(222));a.default=function(){return l.a.createElement(r.a,null,l.a.createElement("div",{className:"new-about-writeup"},l.a.createElement("p",{style:{"margin-top":"0px"}},l.a.createElement("a",{href:"mailto:maxhfowler@gmail.com"},"maxhfowler@gmail.com"))))}}}]);
-//# sourceMappingURL=component---src-pages-contact-js-f64502519d1cdec4f00d.js.map
