@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import SLink from './SLink.js'
 import Filler from './Filler.js'
 var classNames = require('classnames')
 
@@ -19,16 +20,16 @@ const Header = ({reversed}) => {
           <Link to="/about">about</Link>
         </div>
         <div className="navlink">
-          <Link  to="/">work </Link>
+          <Link to="/">work</Link>
+        </div>
+        <div className="navlink">
+          <SLink  to="http://canalswans.net">writing </SLink>
         </div>
         <div className="navlink">
           <a href="http://twitter.com/notplants">twitter </a>
         </div>
         <div className="navlink">
           <a  href="http://github.com/mhfowler">github </a>
-        </div>
-        <div className="navlink">
-          <Link  to="/notes">notes </Link>
         </div>
         <div className="navlink last-navlink">
           <Link  to="/contact">contact </Link>

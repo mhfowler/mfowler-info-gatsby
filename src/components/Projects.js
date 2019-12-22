@@ -12,6 +12,14 @@ const Projects = () => {
       <SimpleSite/>
       <div className="projects-wrapper">
           <Project
+            project_title="Disconnection Practices"
+            project_image="/content/documentation/disconnection-practices/disconnection-shop/front.jpg"
+            project_snippet="a pop-up shop of tools and practices for disconnecting from your smart-phone"
+            project_tags="robotic hand, zines, maps, timed-locks"
+            project_link="/work/disconnection-practices"
+          />
+
+          <Project
             project_title="What's On Your Mind?"
             project_image="/mfowler/img/thumbnails/woym-notebook.png"
             project_snippet="facebook statuses from the week after November 9th, 2016"

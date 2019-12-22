@@ -39,7 +39,7 @@ export default function MdxTemplate({ data: { mdx  }}) {
     return (
       <Layout noHeader={noHeader} pageType={pageType}>
         <article className={"markdownWrapper"}>
-          <header style={{'margin-bottom': '20px', 'width': '100%', 'float':'left'}}>
+          <header style={{'width': '100%'}}>
             <h2
               style={{
                 marginBottom: 0,
