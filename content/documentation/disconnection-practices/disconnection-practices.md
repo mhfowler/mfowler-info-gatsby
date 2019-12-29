@@ -20,5 +20,4 @@ or order a physical copy here --> [physical zine](http://canalswans.net/zines/di
 ![](disconnection-shop/zines.jpeg)
 ![](disconnection-shop/the-disconnection-shop.png)
 
-<iframe src="https://vimeo.com/315455831" width="750" height="422" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
+<iframe src="https://player.vimeo.com/video/315455831" width="750" height="420" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
