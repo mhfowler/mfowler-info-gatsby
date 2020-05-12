@@ -7,12 +7,9 @@ PROJECT_PATH = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 PAGES_DIR = os.path.join(PROJECT_PATH, 'kleinanzeigen/templates/pages')
 
 # output dirs
-LOCAL_OUTPUT_DIR = os.path.join(PROJECT_PATH, 'static/reuse/')
-PROD_OUTPUT_DIR = os.path.join(PROJECT_PATH, 'static/prod')
-if not os.path.exists(LOCAL_OUTPUT_DIR):
-    os.makedirs(LOCAL_OUTPUT_DIR)
-if not os.path.exists(PROD_OUTPUT_DIR):
-    os.makedirs(PROD_OUTPUT_DIR)
+OUTPUT_DIR = os.path.join(PROJECT_PATH, 'static/')
+if not os.path.exists(OUTPUT_DIR):
+    os.makedirs(OUTPUT_DIR)
 
 # input inventory folder
 INVENTORY_DIR = os.path.join(PROJECT_PATH, 'static/kleinanzeigen')
@@ -22,12 +19,16 @@ def load_inventory(inventory_dir):
     inventory = {}
     for dirpath, dirnames, filenames in os.walk(inventory_dir):
         for f_name in filenames:
+            if dirpath != inventory_dir:
+                continue
             if f_name in ['.DS_Store']:
                 continue
             img_path = '/kleinanzeigen/{}'.format(f_name)
             inventory[f_name] = [img_path]
         for dirname in dirnames:
             if dirname == 'sold':
+                continue
+            if dirpath != inventory_dir:
                 continue
             full_path = os.path.join(dirpath, dirname)
             img_paths = []
@@ -81,8 +82,5 @@ def build_site(pages_dir, output_dir, debug):
 
 if __name__ == '__main__':
 
-    # build local dist
-    build_site(pages_dir=PAGES_DIR, output_dir=LOCAL_OUTPUT_DIR, debug=True)
-
-    # build prod site
-    # build_site(pages_dir=PAGES_DIR, output_dir=PROD_OUTPUT_DIR, template_vars=PROD_VARS, debug=True)
+    # build dist
+    build_site(pages_dir=PAGES_DIR, output_dir=OUTPUT_DIR, debug=True)

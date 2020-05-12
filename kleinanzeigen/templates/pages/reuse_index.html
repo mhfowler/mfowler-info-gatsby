@@ -1,17 +1,69 @@
+<html>
+<header>
+    <style>
+        body {
+            max-width: 600px;
+            margin: auto;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        img {
+            max-width: 45%;
+            width: 45%;
+        }
+        .item-caption {
+            margin-bottom: 40px;
+        }
+    </style>
+</header>
+<body>
 <div>
-    this is a page to re-sell my stuff
+    <p>
+        This is a page listing things which I am hoping to sell or give away.
+    </p>
+    <p>
+        If you would like to pick something up (or all of it), please send me a message over sms, telegram or signal at +4915208151367,
+        or send me an email at maxhfowler@gmail.com.
+    </p>
+    <p>
+        I usually am available for things to be picked up in the morning before 10AM, from my apartment in Alt-Treptow, Berlin.
+    </p>
+    <p>
+        These are things from past projects, still functional, but no longer needed, and I want them to find some use.
+    </p>
+    <p>
+        Attempting to close the loop.
+    </p>
 </div>
 <div>
     {% for item_name, img_paths in inventory.items() %}
         <div>
-            <p>
-                <i>{{item_name}}</i>
-            </p>
-            <p>
+            <p class="item-images">
                  {% for img_path in img_paths %}
-                    <img src="{{img_path}}" />
+                    <a href="{{img_path}}"><img src="{{img_path}}" /></a>
                  {% endfor %}
+            </p>
+            <p class="item-caption">
+                <i>{{item_name}}</i>
             </p>
         </div>
     {% endfor %}
 </div>
+<div>
+    <p>
+        ps, this site is dynamically generated from
+        a folder of images where I keep track of
+        the inventory of what I am giving away
+        by taking a picture of each thing,
+        and naming each file or folder with the name of the thing.
+        when something is given away or sold, I move it into the sold folder,
+        and it no longer appears on this site.
+    </p>
+    <p>
+        <img style="width: 100%;max-width: 100%;margin-top:20px; margin-bottom: 20px;" src="/img/inventory.png"/>
+    </p>
+</div>
+</body>
+</html>
