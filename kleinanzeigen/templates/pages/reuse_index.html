@@ -1,0 +1,17 @@
+<div>
+    this is a page to re-sell my stuff
+</div>
+<div>
+    {% for item_name, img_paths in inventory.items() %}
+        <div>
+            <p>
+                <i>{{item_name}}</i>
+            </p>
+            <p>
+                 {% for img_path in img_paths %}
+                    <img src="{{img_path}}" />
+                 {% endfor %}
+            </p>
+        </div>
+    {% endfor %}
+</div>
