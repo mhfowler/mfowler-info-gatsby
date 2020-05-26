@@ -7,7 +7,7 @@ PROJECT_PATH = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 PAGES_DIR = os.path.join(PROJECT_PATH, 'kleinanzeigen/templates/pages')
 
 # output dirs
-OUTPUT_DIR = os.path.join(PROJECT_PATH, 'static/')
+OUTPUT_DIR = os.path.join(PROJECT_PATH, 'static')
 if not os.path.exists(OUTPUT_DIR):
     os.makedirs(OUTPUT_DIR)
 
@@ -18,6 +18,9 @@ INVENTORY_DIR = os.path.join(PROJECT_PATH, 'static/kleinanzeigen')
 def load_inventory(inventory_dir):
     inventory = {}
     for dirpath, dirnames, filenames in os.walk(inventory_dir):
+        dirpath_parts = dirpath.split('/')
+        if 'sold' in dirpath_parts:
+            continue
         for f_name in filenames:
             if dirpath != inventory_dir:
                 continue
