@@ -9,7 +9,7 @@ tags: "website, raspberry pi, screen, keyboard"
 Does virtual reality need a headset?
           
 Oasis is a virtual gallery for terminal and textual works contained within a raspberry pi only accessible by SSH.
-You can visit <a href="http://oasisvr.info">http://oasisvr.info</a> for instructions on
+You can visit <a href="http://oasisvr.commoninternet.net">oasisvr.commoninternet.net</a> for instructions on
 how to travel to oasis (it's currently in a corner of my apartment).
 
 Oasis was exhibited at <a href="http://radicalnetworks.org">Radical Networks</a>
