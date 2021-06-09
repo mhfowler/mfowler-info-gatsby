@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-python 'kleinanzeigen/build.py'
+python3 'kleinanzeigen/build.py'
 npm run deploy

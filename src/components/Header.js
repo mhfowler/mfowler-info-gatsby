@@ -23,10 +23,10 @@ const Header = ({reversed}) => {
           <Link to="/">work</Link>
         </div>
         <div className="navlink">
-          <SLink  to="http://canalswans.net">writing </SLink>
+          <SLink  to="http://canalswans.commoninternet.net">writing </SLink>
         </div>
         <div className="navlink">
-          <a href="http://twitter.com/notplants">twitter </a>
+          <a href="https://sunbeam.city/@notplants">fediverse</a>
         </div>
         <div className="navlink">
           <a  href="http://github.com/mhfowler">github </a>

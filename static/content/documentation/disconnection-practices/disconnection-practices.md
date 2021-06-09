@@ -14,7 +14,7 @@ Pin Daddy is a machine that can robotically child-block your phone with a pin th
 
 As part of this pop-up shop, I also shared a zine of less automated Disconnection Practices (made in collaboration with Catherine Schmidt) which you can view as a PDF here: 
 [disconnection-practices.pdf](https://arena-attachments.s3.amazonaws.com/3568310/9d8420005d1ff7ac32825f91553fa294.pdf?1549377955) 
-or order a physical copy here --> [physical zine](http://canalswans.net/zines/disconnection-practices)
+or order a physical copy here --> [physical zine](http://canalswans.commoninternet.net/zines/disconnection-practices)
 
 ![](disconnection-shop/caravan.jpg)
 ![](disconnection-shop/zines.jpeg)

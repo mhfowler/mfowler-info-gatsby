@@ -62,7 +62,7 @@ const Projects = () => {
     project_image="/mfowler/img/thumbnails/abridged1.png"
     project_snippet="a twitter bot that strips Google Maps of all natural imagery"
     project_tags="website, twitter bot"
-    project_link="http://mfowler.info/abridgedmaps/index.html"
+    project_link="http://mfowler.commoninternet.net/abridgedmaps/index.html"
 
     />
 
@@ -89,8 +89,7 @@ const Projects = () => {
     project_image="/mfowler/img/floppy_disk.jpg"
     project_snippet="what systems and thought-processes do you use to store & organize files/links/media?"
     project_tags="website"
-    project_link="http://memoryprosthetics.net"
-
+    project_link="http://memoryprosthetics.commoninternet.net"
     />
 
     <Project
@@ -99,7 +98,6 @@ const Projects = () => {
     project_tags="website"
     project_image="/mfowler/img/thumbnails/hdis.png"
     project_link="http://howdoispeak.com"
-
     />
 
     <Project
