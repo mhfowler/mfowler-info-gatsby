@@ -6,7 +6,7 @@ const ContactPage = () => (
   <Layout>
     <div className="new-about-writeup">
       <p style={{"margin-top": "0px"}}>
-        <a href="mailto:maxhfowler@gmail.com">maxhfowler@gmail.com</a>
+        <a href="mailto:mfowler@commoninternet.net">max@mfowler.info</a>
       </p>
     </div>
   </Layout>
