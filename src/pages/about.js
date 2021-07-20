@@ -14,12 +14,12 @@ const AboutPage = () => {
             <strong>currently: </strong>
             <br/>
             - researching attention, notifications and systems for blocking social media on your phone<br/>
-            - freelancing (please <a href="mailto:mfowler@commoninternet.net">email me</a> if you would like to work together)
+            - freelancing (please <a href="mailto:max@mfowler.info">email me</a> if you would like to work together)
           </p>
         </div>
 
         <p >
-          <a href="https://tinyletter.com/notplants">newsletter</a> // <a href="https://sunbeam.city/@notplants">fediverse</a> // <a href="http://instagram.com/maxpicks">instagram</a> // <a href="http://github.com/mhfowler">github</a> // <a href="https://www.are.na/max-fowler">are.na</a> // <a href="mailto:max@mfowler.info">max@mfowler.info</a>
+          <a href="https://tinyletter.com/notplants">newsletter</a> // <a href="https://sunbeam.city/@notplants">sunbeam</a> // <a href="http://instagram.com/maxpicks">instagram</a> // <a href="http://github.com/mhfowler">github</a> // <a href="https://www.are.na/max-fowler">are.na</a> // <a href="mailto:max@mfowler.info">max@mfowler.info</a>
         </p>
 
         {/*<br/>*/}
