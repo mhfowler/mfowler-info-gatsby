@@ -26,7 +26,7 @@ const Header = ({reversed}) => {
           <SLink  to="http://canalswans.commoninternet.net">writing </SLink>
         </div>
         <div className="navlink">
-          <a href="https://sunbeam.city/@notplants">fediverse</a>
+          <a href="https://sunbeam.city/@notplants">sunbeam</a>
         </div>
         <div className="navlink">
           <a  href="http://github.com/mhfowler">github </a>

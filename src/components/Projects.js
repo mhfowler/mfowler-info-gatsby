@@ -62,7 +62,7 @@ const Projects = () => {
     project_image="/mfowler/img/thumbnails/abridged1.png"
     project_snippet="a twitter bot that strips Google Maps of all natural imagery"
     project_tags="website, twitter bot"
-    project_link="http://mfowler.commoninternet.net/abridgedmaps/index.html"
+    project_link="https://mfowler.info/abridgedmaps/index.html"
 
     />
 
