@@ -19,7 +19,7 @@ const AboutPage = () => {
         </div>
 
         <p >
-          <a href="https://tinyletter.com/notplants">newsletter</a> // <a href="https://sunbeam.city/@notplants">sunbeam</a> // <a href="http://instagram.com/maxpicks">instagram</a> // <a href="http://github.com/mhfowler">github</a> // <a href="https://www.are.na/max-fowler">are.na</a> // <a href="mailto:max@mfowler.info">max@mfowler.info</a>
+          <a href="https://gaia.chat/mailman/cgi-bin/listinfo/canalswans">newsletter</a> // <a href="https://sunbeam.city/@notplants">sunbeam</a> // <a href="http://instagram.com/maxpicks">instagram</a> // <a href="http://github.com/mhfowler">github</a> // <a href="https://www.are.na/new-name">are.na</a> // <a href="mailto:max@mfowler.info">max@mfowler.info</a>
         </p>
 
         {/*<br/>*/}
