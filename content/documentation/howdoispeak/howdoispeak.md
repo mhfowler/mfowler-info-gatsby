@@ -27,7 +27,7 @@ Please note that this was over seven years ago and I honor, forgive and release 
 http://web.archive.org/web/20170227111329/http://howdoispeak.com/abnormal/demo/
 
 And below is a line graph showing how frequently I texted the names of three past lovers over time. 
-I appreciated that the graph in some ways can convey an emotion, while in another sense saying nothing at all. 
+I appreciated that the graph in some ways can convey a story, while in another sense saying barely anything at all. 
 
 ![line graph with three curves](img/howdoispeak_graph.png)
 
