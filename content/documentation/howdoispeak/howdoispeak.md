@@ -1,5 +1,5 @@
 ---
-path: "/work/howdoispeak/"
+path: "/work/howdoispeak_archive"
 date: "2015-01-19T23:19:51.246Z"
 title: "HowDoISpeak"
 type: "documentation"
