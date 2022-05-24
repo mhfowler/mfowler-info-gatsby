@@ -36,6 +36,7 @@ class Layout extends React.Component {
 
   render() {
     var wrapperClasses = `base-body ${this.state.mood} ${this.props.pageType}`
+    var noscriptstyles = '.nojavascripthide { display: none } '
     return (
       <div className={wrapperClasses}>
         <Helmet
@@ -54,6 +55,11 @@ class Layout extends React.Component {
               href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"/>
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"/>
         <link rel="icon" href="/mfowler/img/favico.ico" type="image/x-icon"/>
+        <noscript>
+          <style>
+            { noscriptstyles }
+          </style>
+        </noscript>
         <div className="page-wrapper">
           { !this.props.noHeader ? <Header/> : null }
           <div className="main-wrapper">
@@ -64,7 +70,7 @@ class Layout extends React.Component {
               <div className="right-filler">
                 welcome to the website
               </div>
-              <div className="right-filler top-left">
+              <div className="right-filler top-left nojavascripthide">
                 <div className="click-your-mood"> click your mood:</div>
                 <MoodButton mood="standard" currentMood={this.state.mood} handleMoodClick={this.handleMoodClick} />
                 <MoodButton mood="asmr" currentMood={this.state.mood} handleMoodClick={this.handleMoodClick} />

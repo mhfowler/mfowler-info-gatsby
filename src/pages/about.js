@@ -13,7 +13,8 @@ const AboutPage = () => {
           <p style={{"margin-top": "0px"}}>
             <strong>currently: </strong>
             <br/>
-            - researching attention, notifications and systems for blocking social media on your phone<br/>
+            - working on <a href="http://docs.peachcloud.org/">peachcloud</a>, a low-power hardware device for hosting scuttlebutt pubs<br/>
+            {/*- growing mushrooms with <a href="https://kiezpilz.de">kiezpilz</a><br/>*/}
             - freelancing (please <a href="mailto:max@mfowler.info">email me</a> if you would like to work together)
           </p>
         </div>

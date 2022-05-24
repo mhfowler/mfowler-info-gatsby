@@ -97,7 +97,7 @@ const Projects = () => {
     project_snippet="a website which shows you insights about the way you text by analyzing your word usage in your text messages"
     project_tags="website"
     project_image="/mfowler/img/thumbnails/hdis.png"
-    project_link="http://howdoispeak.com"
+    project_link="/work/howdoispeak_archive"
     />
 
     <Project
@@ -105,7 +105,7 @@ const Projects = () => {
     project_snippet="an app that allows you to upload your text message history to a publicly viewable page on the internet"
     project_tags="website"
     project_image="/mfowler/img/thumbnails/truespeak.png"
-    project_link="http://brocascoconut.com/truespeak/"
+    project_link="/work/truespeak"
 
     />
 
@@ -114,7 +114,7 @@ const Projects = () => {
     project_snippet="an e-commerce store which sells t-shirts, framed prints and booty shorts"
     project_tags="website"
     project_image="/mfowler/img/thumbnails/capitalist.png"
-    project_link="http://brocascoconut.com/the_capitalist_tshirt/"
+    project_link="/work/the_capitalist_tshirt"
 
     />
 

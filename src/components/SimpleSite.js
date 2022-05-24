@@ -7,7 +7,7 @@ const SimpleSite = () => {
    <div className="simple-site">
     <div className="about-line" style={{"marginTop": "20px"}}>
         Max Fowler is an artist, programmer and organizer living in Berlin. <br/>
-        Follow them on the <a href="https://sunbeam.city/@notplants">fediverse</a> or sign up for their <SLink to="/mail">newsletter</SLink>.
+        <a href="mailto:max@mfowler.info">Send them an email</a> or sign up for their <SLink to="/mail">newsletter</SLink>.
     </div>
 
     <div className="simple-list">
@@ -71,7 +71,7 @@ const SimpleSite = () => {
             </div>
             <div className="simple-wrapper">
                 <div className="simple-title">
-                    <SLink to="http://brocascoconut.com/truespeak/">Truespeak</SLink>
+                    <SLink to="/work/truespeak/">Truespeak</SLink>
                 </div>
                 <div className="simple-description">
                     an app that allows you to upload your text message history to a publicly viewable page on the internet
@@ -79,7 +79,7 @@ const SimpleSite = () => {
             </div>
             <div className="simple-wrapper">
                 <div className="simple-title">
-                    <SLink to="http://howdoispeak.com">HowDoISpeak</SLink>
+                    <SLink to="/work/howdoispeak_archive/">HowDoISpeak</SLink>
                 </div>
                 <div className="simple-description">
                     a website which shows you insights about the way you text by analyzing your word usage in your text messages
@@ -87,18 +87,10 @@ const SimpleSite = () => {
             </div>
             <div className="simple-wrapper">
                 <div className="simple-title">
-                    <SLink to="http://brocascoconut.com/the_capitalist_tshirt/">The Capitalist T-Shirt</SLink>
+                    <SLink to="/work/the_capitalist_tshirt/">The Capitalist T-Shirt</SLink>
                 </div>
                 <div className="simple-description">
                     an e-commerce store which sells t-shirts, framed prints and booty shorts
-                </div>
-            </div>
-            <div className="simple-wrapper">
-                <div className="simple-title">
-                    <SLink to="http://brocascoconut.com">Brocas's Coconut</SLink>
-                </div>
-                <div className="simple-description">
-                    the landing page for a pseudo-anonymous mailing list
                 </div>
             </div>
             <div className="simple-wrapper">
