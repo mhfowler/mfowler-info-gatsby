@@ -29,7 +29,7 @@ const Header = ({reversed}) => {
           <a href="https://sunbeam.city/@notplants">sunbeam</a>
         </div>
         <div className="navlink">
-          <a  href="http://github.com/mhfowler">github </a>
+          <a  href="/gitea">src</a>
         </div>
         <div className="navlink last-navlink">
           <Link  to="/contact">contact </Link>

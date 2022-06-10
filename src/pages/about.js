@@ -15,12 +15,12 @@ const AboutPage = () => {
             <br/>
             - working on <a href="http://docs.peachcloud.org/">peachcloud</a>, a low-power hardware device for hosting scuttlebutt pubs<br/>
             {/*- growing mushrooms with <a href="https://kiezpilz.de">kiezpilz</a><br/>*/}
-            - freelancing (please <a href="mailto:max@mfowler.info">email me</a> if you would like to work together)
+            - growing mushrooms with <a href="http://kiezpilz.de">kiezpilz</a> (please <a href="mailto:max@mfowler.info">email me</a> if you would like to get involved)
           </p>
         </div>
 
         <p >
-          <a href="https://gaia.chat/mailman/cgi-bin/listinfo/canalswans">newsletter</a> // <a href="https://sunbeam.city/@notplants">sunbeam</a> // <a href="http://instagram.com/maxpicks">instagram</a> // <a href="http://github.com/mhfowler">github</a> // <a href="https://www.are.na/new-name">are.na</a> // <a href="mailto:max@mfowler.info">max@mfowler.info</a>
+          <a href="/mail">newsletter</a> // <a href="/feeds">rss</a> // <a href="https://sunbeam.city/@notplants">sunbeam</a> // <a href="http://instagram.com/maxpicks">instagram</a> // <a href="/gitea">gitea</a> // <a href="https://www.are.na/new-name">are.na</a> // <a href="mailto:max@mfowler.info">max@mfowler.info</a>
         </p>
 
         {/*<br/>*/}
